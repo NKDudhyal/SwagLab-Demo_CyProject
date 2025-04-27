@@ -1,0 +1,7 @@
+{
+    "expected_username_placeholder":"Username",
+    "expected_password_placeholder":"Password",
+    "expected_firstname_placeholder":"First Name",
+    "expected_lastname_placeholder":"Last Name",
+    "expected_zipcode_placeholder":"Zip/Postal Code"
+}

@@ -1,0 +1,5 @@
+{
+    "expectedErrorMessage_for_all_fileds_empty":"Error: First Name is required",
+    "expectedErrorMessage_for_lastName_empty_filed":"Error: Last Name is required",
+    "expectedErrorMessage_for_zipCode_empty_filed":"Error: Postal Code is required"
+}

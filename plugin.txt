@@ -1,0 +1,1 @@
+For html reprot = npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator

@@ -1,0 +1,38 @@
+{
+  "name": "swaglabs_project_cy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:chrome:login": "cross-env REPORT_NAME=Report_For_TS001_LoginPage BROWSER=chrome npx cypress run --browser chrome --spec cypress/e2e/TS001_loginPage.cy.js",
+    "test:firefox:login": "cross-env REPORT_NAME=Report_For_TS001_LoginPage BROWSER=firefox npx cypress run --browser firefox --spec cypress/e2e/TS001_loginPage.cy.js",
+    "test:edge:login": "cross-env REPORT_NAME=Report_For_TS001_LoginPage BROWSER=edge npx cypress run --browser edge --spec cypress/e2e/TS001_loginPage.cy.js",
+    "test:chrome:inventory": "cross-env REPORT_NAME=Report_For_TS002_InventoryPage BROWSER=chrome  npx cypress run --browser chrome --spec cypress/e2e/TS002_inventoryPage.cy.js",
+    "test:firefox:inventory": "cross-env REPORT_NAME=Report_For_TS002_InventoryPage BROWSER=firefox  npx cypress run --browser firefox --spec cypress/e2e/TS002_inventoryPage.cy.js",
+    "test:edge:inventory": "cross-env REPORT_NAME=Report_For_TS002_InventoryPage BROWSER=edge  npx cypress run --browser edge --spec cypress/e2e/TS002_inventoryPage.cy.js",
+    "test:chrome:cart": "cross-env REPORT_NAME=Report_For_TS003_CartPage BROWSER=chrome  npx cypress run --browser chrome --spec cypress/e2e/TS003_cartPage.cy.js",
+    "test:firefox:cart": "cross-env REPORT_NAME=Report_For_TS003_CartPage BROWSER=firefox  npx cypress run --browser firefox --spec cypress/e2e/TS003_cartPage.cy.js",
+    "test:edge:cart": "cross-env REPORT_NAME=Report_For_TS003_CartPage BROWSER=edge  npx cypress run --browser edge --spec cypress/e2e/TS003_cartPage.cy.js",
+    "test:chrome:checkout1": "cross-env REPORT_NAME=Report_For_TS004_CheckoutOnePage BROWSER=chrome  npx cypress run --browser chrome --spec cypress/e2e/TS004_checkoutOnePage.cy.js",
+    "test:firefox:checkout1": "cross-env REPORT_NAME=Report_For_TS004_CheckoutOnePage BROWSER=firefox  npx cypress run --browser firefox --spec cypress/e2e/TS004_checkoutOnePage.cy.js",
+    "test:edge:checkout1": "cross-env REPORT_NAME=Report_For_TS004_CheckoutOnePage BROWSER=edge  npx cypress run --browser edge --spec cypress/e2e/TS004_checkoutOnePage.cy.js",
+    "test:chrome:checkout2": "cross-env REPORT_NAME=Report_For_TS005_CheckoutTwoPage BROWSER=chrome  npx cypress run --browser chrome --spec cypress/e2e/TS005_checkoutTwoPage.cy.js",
+    "test:firefox:checkout2": "cross-env REPORT_NAME=Report_For_TS005_CheckoutTwoPage BROWSER=firefox  npx cypress run --browser firefox --spec cypress/e2e/TS005_checkoutTwoPage.cy.js",
+    "test:edge:checkout2": "cross-env REPORT_NAME=Report_For_TS005_CheckoutTwoPage BROWSER=edge  npx cypress run --browser edge --spec cypress/e2e/TS005_checkoutTwoPage.cy.js",
+    "test:chrome:success": "cross-env REPORT_NAME=Report_For_TS006_SuccessPage BROWSER=chrome  npx cypress run --browser chrome --spec cypress/e2e/TS006_completePage.cy.js",
+    "test:firefox:success": "cross-env REPORT_NAME=Report_For_TS006_SuccessPage BROWSER=firefox  npx cypress run --browser firefox --spec cypress/e2e/TS006_completePage.cy.js",
+    "test:edge:success": "cross-env REPORT_NAME=Report_For_TS006_SuccessPage BROWSER=edge  npx cypress run --browser edge --spec cypress/e2e/TS006_completePage.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "cypress": "^14.3.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}

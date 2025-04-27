@@ -1,0 +1,12 @@
+{
+    "inventoryPage_url":"https://www.saucedemo.com/inventory.html",
+    "loginPage_url":"https://www.saucedemo.com/",
+    "cartPage_url":"https://www.saucedemo.com/cart.html",
+    "chkoutOnePage_url":"https://www.saucedemo.com/checkout-step-one.html",
+    "chkoutTwoPage_url":"https://www.saucedemo.com/checkout-step-two.html",
+    "completePage_url":"https://www.saucedemo.com/checkout-complete.html",
+    "soucelabsPage_url":"https://saucelabs.com",
+    "twitter_url":"https://twitter.com/saucelabs",
+    "facebook_url":"https://www.facebook.com/saucelabs",
+    "linkedIn_url":"https://www.linkedin.com/company/sauce-labs/"
+}

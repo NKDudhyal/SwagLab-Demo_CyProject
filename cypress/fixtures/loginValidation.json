@@ -1,0 +1,5 @@
+{
+    "expectedErroMessage_for_invalid_login_details":"Epic sadface: Username and password do not match any user in this service",
+    "expectedErrorMessage_for_empty_credentails":"Epic sadface: Username is required",
+    "expectedErrorMessage_for_empty_password":"Epic sadface: Password is required"
+}
